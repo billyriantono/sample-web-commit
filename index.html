@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="RheaOS adalah sistem operasi modern dengan performa cepat, desain elegan, dan workflow produktif untuk kreator, developer, dan power user." />
+  <title>RheaOS — Sistem Operasi Modern untuk Kreator & Developer</title>
+
+  <!-- Preconnect Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Google Fonts: Inter (400-800) + JetBrains Mono (400,600) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <nav class="navbar navbar-expand-lg sticky-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+        <span class="brand-mark"><i class="bi bi-gem"></i></span>
+        <span>RheaOS</span>
+      </a>
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#specs">Specs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Reviews</a></li>
+          <li class="nav-item"><a class="nav-link" href="#download">Download</a></li>
+        </ul>
+        <a href="#download" class="btn btn-primary-custom">Unduh Gratis</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section class="hero">
+    <div class="orb orb-1" data-parallax="12"></div>
+    <div class="orb orb-2" data-parallax="8"></div>
+    <div class="orb orb-3" data-parallax="6"></div>
+    <div class="container position-relative">
+      <div class="row align-items-center">
+        <div class="col-lg-7 hero-copy hero-content">
+          <span class="section-kicker hero-badge">
+            <i class="bi bi-lightning-charge-fill"></i>
+            Versi 3.0 — Rilis Resmi!
+          </span>
+          <h1 class="gradient-text">
+            Sistem Operasi yang<br />Dirancang untuk<br />Produktivitas Tanpa<br />Batas
+          </h1>
+          <p class="lead">
+            RheaOS menggabungkan performa tinggi, desain elegan, dan workflow intuitif untuk kreator, developer, dan power user modern.
+          </p>
+          <div class="hero-actions">
+            <a href="#download" class="btn btn-primary btn-primary-custom btn-lg">
+              <i class="bi bi-download me-2"></i>Unduh Gratis
+            </a>
+            <a href="#gallery" class="btn btn-outline btn-outline-custom btn-lg">
+              <i class="bi bi-play-circle me-2"></i>Lihat Demo
+            </a>
+          </div>
+          <div class="hero-meta">
+            <div class="hero-meta-item">
+              <strong>Gratis</strong>
+              <span>Selamanya</span>
+            </div>
+            <div class="hero-meta-item">
+              <strong>128GB</strong>
+              <span>RAM Max</span>
+            </div>
+            <div class="hero-meta-item">
+              <strong>2M+</strong>
+              <span>Unduhan</span>
+            </div>
+            <div class="hero-meta-item">
+              <strong>4.9<i class="bi bi-star-fill ms-1"></i></strong>
+              <span>Rating</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 hero-visual-wrap d-none d-lg-block">
+          <div class="hero-visual">
+            <div class="window-mock">
+              <div class="window-mock-header">
+                <span class="window-dot red"></span>
+                <span class="window-dot yellow"></span>
+                <span class="window-dot green"></span>
+                <span class="window-mock-title">rheaos ~ workspace</span>
+              </div>
+              <div class="window-mock-body">
+                <div class="window-sidebar">
+                  <div class="sidebar-icon"><i class="bi bi-folder"></i></div>
+                  <div class="sidebar-icon"><i class="bi bi-file-earmark-code"></i></div>
+                  <div class="sidebar-icon active"><i class="bi bi-terminal"></i></div>
+                  <div class="sidebar-icon"><i class="bi bi-browser-chrome"></i></div>
+                  <div class="sidebar-icon"><i class="bi bi-gear"></i></div>
+                </div>
+                <div class="window-content">
+                  <div class="mock-card">
+                    <div class="mock-card-icon"><i class="bi bi-activity"></i></div>
+                    <div class="mock-card-title">System Performance</div>
+                    <div class="mock-card-desc">CPU &amp; Memory usage</div>
+                    <div class="chart" aria-hidden="true">
+                      <span data-height="45"></span>
+                      <span data-height="60"></span>
+                      <span data-height="35"></span>
+                      <span data-height="80"></span>
+                      <span data-height="55"></span>
+                      <span data-height="70"></span>
+                      <span data-height="45"></span>
+                      <span data-height="65"></span>
+                    </div>
+                  </div>
+                  <div class="mock-card">
+                    <div class="mock-card-icon"><i class="bi bi-cpu"></i></div>
+                    <div class="mock-card-title">Quick Stats</div>
+                    <div class="mock-card-desc">142 proses aktif • 8.2GB memory siap dipakai.</div>
+                  </div>
+                  <div class="mock-card">
+                    <div class="mock-card-icon"><i class="bi bi-shield-check"></i></div>
+                    <div class="mock-card-title">Security</div>
+                    <div class="mock-card-desc">Secure Boot aktif dan update terenkripsi otomatis.</div>
+                  </div>
+                  <div class="mock-card">
+                    <div class="mock-card-icon"><i class="bi bi-terminal"></i></div>
+                    <div class="mock-card-title">Terminal</div>
+                    <div class="mock-card-desc font-monospace">rheaos --version<br />RheaOS 3.0.2 LTS</div>
+                  </div>
+                  <div class="mock-card">
+                    <div class="mock-card-icon"><i class="bi bi-code-slash"></i></div>
+                    <div class="mock-card-title">Developer Ready</div>
+                    <div class="mock-card-desc">Docker native, SDK lengkap, dan workflow CLI cepat.</div>
+                  </div>
+                  <div class="mock-card">
+                    <div class="mock-card-icon"><i class="bi bi-cloud-check"></i></div>
+                    <div class="mock-card-title">Cloud Sync</div>
+                    <div class="mock-card-desc">Sinkronisasi otomatis lintas perangkat tanpa konfigurasi rumit.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <span class="floating-chip chip-left">
+              <i class="bi bi-check-circle-fill text-success"></i>
+              Boot: 2.1s
+            </span>
+            <span class="floating-chip chip-right">
+              <i class="bi bi-shield-check text-info"></i>
+              Secure Boot
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FEATURES
+  ============================================================ -->
+  <section id="features" class="section">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="section-kicker">
+          <i class="bi bi-stars"></i>
+          Fitur Unggulan
+        </span>
+        <h2 class="section-title gradient-text">Semua yang Anda Butuhkan</h2>
+        <p class="section-desc mx-auto text-center">
+          Dirancang untuk workflow modern dengan fitur-fitur yang membantu Anda bekerja lebih cepat dan lebih cerdas.
+        </p>
+      </div>
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4 reveal delay-1">
+          <div class="feature-card glass p-4 h-100">
+            <div class="feature-icon">
+              <i class="bi bi-lightning-charge"></i>
+            </div>
+            <h5>Performa Tercepat</h5>
+            <p class="mb-0">Boot dalam hitungan detik dengan optimasi kernel khusus yang meningkatkan respons sistem hingga 40%.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 reveal delay-1">
+          <div class="feature-card glass p-4 h-100">
+            <div class="feature-icon">
+              <i class="bi bi-palette"></i>
+            </div>
+            <h5>Desain Modern</h5>
+            <p class="mb-0">Antarmuka yang bersih dan estetik dengan dukungan tema dinamis yang mengikuti preferensi Anda.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 reveal delay-2">
+          <div class="feature-card glass p-4 h-100">
+            <div class="feature-icon">
+              <i class="bi bi-shield-check"></i>
+            </div>
+            <h5>Keamanan Tinggi</h5>
+            <p class="mb-0">Enkripsi end-to-end, sandboxing bawaan, dan pembaruan keamanan otomatis setiap bulan.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 reveal delay-2">
+          <div class="feature-card glass p-4 h-100">
+            <div class="feature-icon">
+              <i class="bi bi-puzzle"></i>
+            </div>
+            <h5>Ekstensi & Plugin</h5>
+            <p class="mb-0">Sistem plugin yang powerful memungkinkan kustomisasi tanpa batas sesuai kebutuhan workflow Anda.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 reveal delay-3">
+          <div class="feature-card glass p-4 h-100">
+            <div class="feature-icon">
+              <i class="bi bi-cloud"></i>
+            </div>
+            <h5>Sinkronisasi Cloud</h5>
+            <p class="mb-0">Sync data seamlessly lintas perangkat dengan integrasi cloud native dan backup otomatis harian.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 reveal delay-3">
+          <div class="feature-card glass p-4 h-100">
+            <div class="feature-icon">
+              <i class="bi bi-code-slash"></i>
+            </div>
+            <h5>Developer Friendly</h5>
+            <p class="mb-0">Terminal terintegrasi, Docker native, dan SDK lengkap untuk pengembangan aplikasi modern.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GALLERY
+  ============================================================ -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="section-kicker">
+          <i class="bi bi-image"></i>
+          Galeri
+        </span>
+        <h2 class="section-title gradient-text">Tampilan Antarmuka</h2>
+        <p class="section-desc mx-auto text-center">
+          Desain yang memukau dengan perhatian pada detail untuk pengalaman pengguna terbaik.
+        </p>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-12 col-lg-8 reveal">
+          <div class="shot-card glass p-4">
+            <div class="shot-screen">
+              <div class="shot-layout">
+                <div class="rail">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div class="workspace">
+                  <div class="workspace-bar"></div>
+                  <div class="app-grid">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h5 class="mb-1">Desktop Workspace</h5>
+            <p class="mb-0 small">Kustomisasi desktop dengan widget dan shortcut sesuai kebutuhan</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 reveal delay-1">
+          <div class="shot-card glass p-4">
+            <div class="shot-screen" >
+              <div class="shot-layout">
+                <div class="rail" ></div>
+                <div class="workspace">
+                  <div class="settings-list">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h5 class="mb-1">Settings Panel</h5>
+            <p class="mb-0 small">Pengaturan intuitif dengan navigasi yang mudah</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 reveal delay-2">
+          <div class="shot-card glass p-4">
+            <div class="shot-screen" >
+              <div class="shot-layout" >
+                <div class="workspace d-flex align-items-end justify-content-center pb-4">
+                  <div class="dock">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h5 class="mb-1">Application Dock</h5>
+            <p class="mb-0 small">Akses cepat ke aplikasi favorit Anda</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SPECS
+  ============================================================ -->
+  <section id="specs" class="section">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="section-kicker">
+          <i class="bi bi-cpu"></i>
+          Spesifikasi
+        </span>
+        <h2 class="section-title gradient-text">Spesifikasi Teknis</h2>
+        <p class="section-desc mx-auto text-center">
+          Hardware modern, software yang dioptimasi untuk performa terbaik di kelasnya.
+        </p>
+      </div>
+      <div class="spec-grid reveal">
+        <div class="spec-item glass">
+          <div class="spec-icon">
+            <i class="bi bi-cpu"></i>
+          </div>
+          <div class="spec-label">Processor</div>
+          <div class="spec-value">Intel Core i9 / AMD Ryzen 9</div>
+        </div>
+        <div class="spec-item glass">
+          <div class="spec-icon">
+            <i class="bi bi-memory"></i>
+          </div>
+          <div class="spec-label">RAM</div>
+          <div class="spec-value">8GB hingga 128GB</div>
+        </div>
+        <div class="spec-item glass">
+          <div class="spec-icon">
+            <i class="bi bi-device-hdd"></i>
+          </div>
+          <div class="spec-label">Storage</div>
+          <div class="spec-value">SSD NVMe 256GB – 2TB+</div>
+        </div>
+        <div class="spec-item glass">
+          <div class="spec-icon">
+            <i class="bi bi-display"></i>
+          </div>
+          <div class="spec-label">Display</div>
+          <div class="spec-value">4K HDR10 • 144Hz+</div>
+        </div>
+      </div>
+      <div class="counter-stats reveal">
+        <div class="counter-item">
+          <div class="counter-number" data-counter="2" data-suffix="M+" data-duration="2000">0</div>
+          <div class="counter-label">Total Unduhan</div>
+        </div>
+        <div class="counter-item">
+          <div class="counter-number" data-counter="150" data-suffix="+" data-duration="2000">0</div>
+          <div class="counter-label">Negara</div>
+        </div>
+        <div class="counter-item">
+          <div class="counter-number" data-counter="99" data-suffix="%" data-duration="2000">0</div>
+          <div class="counter-label">Uptime</div>
+        </div>
+        <div class="counter-item">
+          <div class="counter-number" data-counter="50" data-suffix="K+" data-duration="2000">0</div>
+          <div class="counter-label">Kontributor</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TESTIMONIALS
+  ============================================================ -->
+  <section id="testimonials" class="section">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="section-kicker">
+          <i class="bi bi-chat-quote"></i>
+          Testimoni
+        </span>
+        <h2 class="section-title gradient-text">Apa Kata Mereka</h2>
+        <p class="section-desc mx-auto text-center">
+          Dipilih oleh kreator dan developer dari seluruh dunia.
+        </p>
+      </div>
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4 reveal delay-1">
+          <div class="testimonial-card glass p-4 h-100">
+            <div class="stars mb-3">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <p class="testimonial-text mb-0">
+              "RheaOS mengubah cara saya bekerja. Performanya luar biasa dan antarmukanya sangat intuitif. Saya bisa developing lebih cepat dari sebelumnya."
+            </p>
+            <div class="d-flex align-items-center gap-3 mt-4">
+              <div class="avatar">
+                <i class="bi bi-person-fill"></i>
+              </div>
+              <div>
+                <strong>Budi Santoso</strong>
+                <br />
+                <small class="text-muted">Full-Stack Developer</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 reveal delay-2">
+          <div class="testimonial-card glass p-4 h-100">
+            <div class="stars mb-3">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+            </div>
+            <p class="testimonial-text mb-0">
+              "Desainnya memukau dan sangat estetik. RheaOS memberikan pengalaman desktop yang premium tanpa mengorbankan performa sama sekali."
+            </p>
+            <div class="d-flex align-items-center gap-3 mt-4">
+              <div class="avatar">
+                <i class="bi bi-person-fill"></i>
+              </div>
+              <div>
+                <strong>Siti Rahayu</strong>
+                <br />
+                <small class="text-muted">UI/UX Designer</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 reveal delay-3">
+          <div class="testimonial-card glass p-4 h-100">
+            <div class="stars mb-3">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+            </div>
+            <p class="testimonial-text mb-0">
+              "Sudah coba banyak distro Linux, tapi RheaOS adalah yang terbaik. Stabil, cepat, dan dokumentasinya sangat lengkap untuk pemula."
+            </p>
+            <div class="d-flex align-items-center gap-3 mt-4">
+              <div class="avatar">
+                <i class="bi bi-person-fill"></i>
+              </div>
+              <div>
+                <strong>Ahmad Wijaya</strong>
+                <br />
+                <small class="text-muted">DevOps Engineer</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       DOWNLOAD
+  ============================================================ -->
+  <section id="download" class="section section-download">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="section-kicker">
+          <i class="bi bi-download"></i>
+          Unduh
+        </span>
+        <h2 class="section-title gradient-text">Unduh RheaOS</h2>
+        <p class="section-desc mx-auto text-center">
+          Tersedia untuk berbagai platform. Pilih sistem operasi Anda dan mulai pengalaman baru.
+        </p>
+      </div>
+      <div class="row g-4 justify-content-center mb-5 reveal">
+        <div class="col-12 col-md-4">
+          <div class="download-panel glass p-4 text-center h-100">
+            <div class="feature-icon mx-auto mb-3">
+              <i class="bi bi-microsoft"></i>
+            </div>
+            <h5>Windows</h5>
+            <p class="text-muted mb-3 small">Windows 10/11</p>
+            <div class="download-platform">
+              <button class="btn btn-primary-custom w-100 simulate-download" data-platform="Windows">
+                <i class="bi bi-download me-2"></i>Unduh Sekarang
+              </button>
+              <div class="progress-sim">
+                <div class="bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="download-panel glass p-4 text-center h-100">
+            <div class="feature-icon mx-auto mb-3">
+              <i class="bi bi-apple"></i>
+            </div>
+            <h5>macOS</h5>
+            <p class="text-muted mb-3 small">macOS 11+ (Intel & Apple Silicon)</p>
+            <div class="download-platform">
+              <button class="btn btn-primary-custom w-100 simulate-download" data-platform="macOS">
+                <i class="bi bi-download me-2"></i>Unduh Sekarang
+              </button>
+              <div class="progress-sim">
+                <div class="bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="download-panel glass p-4 text-center h-100">
+            <div class="feature-icon mx-auto mb-3">
+              <i class="bi bi-ubuntu"></i>
+            </div>
+            <h5>Linux</h5>
+            <p class="text-muted mb-3 small">Ubuntu 20.04+, Fedora 38+</p>
+            <div class="download-platform">
+              <button class="btn btn-primary-custom w-100 simulate-download" data-platform="Linux">
+                <i class="bi bi-download me-2"></i>Unduh Sekarang
+              </button>
+              <div class="progress-sim">
+                <div class="bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center reveal">
+        <span class="badge-version">
+          <i class="bi bi-tag"></i>
+          v3.0.2 LTS
+        </span>
+        <span class="badge-version ms-2">
+          <i class="bi bi-calendar3"></i>
+          15 Maret 2025
+        </span>
+        <span class="badge-version ms-2">
+          <i class="bi bi-file-earmark-zip"></i>
+          4.2 GB
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       NEWSLETTER
+  ============================================================ -->
+  <section id="newsletter" class="section section-newsletter">
+    <div class="container">
+      <div class="newsletter glass p-5 reveal" >
+        <span class="section-kicker mb-3">
+          <i class="bi bi-envelope"></i>
+          Newsletter
+        </span>
+        <h2 class="section-title gradient-text mt-3">Tetap Updated</h2>
+        <p class="text-muted mb-4">Dapatkan berita terbaru, update, dan tips seputar RheaOS langsung ke inbox Anda.</p>
+        <form id="newsletterForm" class="d-flex flex-column flex-sm-row gap-2">
+          <input type="email" class="form-control" id="newsletterEmail" placeholder="email@contoh.com" required />
+          <button type="submit" class="btn btn-primary-custom">
+            <i class="bi bi-send me-2"></i>Gabung
+          </button>
+        </form>
+        <p id="newsletterMessage" class="mt-3 mb-0 small"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row g-4 mb-5">
+        <div class="col-12 col-lg-4">
+          <a class="d-flex align-items-center gap-2 text-decoration-none mb-3" href="#">
+            <span class="brand-mark"><i class="bi bi-gem"></i></span>
+            <span class="brand-name fw-bold">RheaOS</span>
+          </a>
+          <p class="text-muted mb-4">
+            Sistem operasi modern yang dirancang untuk produktivitas tanpa batas. Open-source dan gratis untuk digunakan.
+          </p>
+          <div class="social-links d-flex gap-3">
+            <a href="#" class="social-link" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="#" class="social-link" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="social-link" aria-label="Discord"><i class="bi bi-discord"></i></a>
+            <a href="#" class="social-link" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-md-2">
+          <h5 class="footer-heading mb-3">Product</h5>
+          <ul class="list-unstyled footer-links">
+            <li><a href="#features" class="footer-link">Features</a></li>
+            <li><a href="#gallery" class="footer-link">Gallery</a></li>
+            <li><a href="#specs" class="footer-link">Specs</a></li>
+            <li><a href="#download" class="footer-link">Download</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2">
+          <h5 class="footer-heading mb-3">Resources</h5>
+          <ul class="list-unstyled footer-links">
+            <li><a href="#" class="footer-link">Documentation</a></li>
+            <li><a href="#" class="footer-link">API Reference</a></li>
+            <li><a href="#" class="footer-link">Guides</a></li>
+            <li><a href="#" class="footer-link">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2">
+          <h5 class="footer-heading mb-3">Community</h5>
+          <ul class="list-unstyled footer-links">
+            <li><a href="#" class="footer-link">Forum</a></li>
+            <li><a href="#" class="footer-link">Discord</a></li>
+            <li><a href="#" class="footer-link">Contributors</a></li>
+            <li><a href="#" class="footer-link">Events</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2">
+          <h5 class="footer-heading mb-3">Legal</h5>
+          <ul class="list-unstyled footer-links">
+            <li><a href="#" class="footer-link">Privacy Policy</a></li>
+            <li><a href="#" class="footer-link">Terms of Service</a></li>
+            <li><a href="#" class="footer-link">License</a></li>
+            <li><a href="#" class="footer-link">Security</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="border-secondary opacity-25" />
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center pt-4">
+        <p class="text-muted mb-0">
+          &copy; 2025 RheaOS Project. All rights reserved.
+        </p>
+        <p class="text-muted mb-0 mt-3 mt-md-0">
+          Made with <i class="bi bi-heart-fill text-danger"></i> by the community
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <!-- Custom Script -->
+  <script src="script.js"></script>
+</body>
+</html>
