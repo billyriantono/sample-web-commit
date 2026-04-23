@@ -29,4 +29,4 @@ const Badge = React.forwardRef<HTMLSpanElement, BadgeProps>(({ className, varian
 ))
 Badge.displayName = 'Badge'
 
-export { Badge, badgeVariants }
+export { Badge }
