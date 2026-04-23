@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.rhea/
+Users/
+*.zip
+*.tsbuildinfo
+
+# Generated config artifacts when TS configs are compiled locally
+vite.config.js
+vite.config.d.ts
+tailwind.config.js
+tailwind.config.d.ts
