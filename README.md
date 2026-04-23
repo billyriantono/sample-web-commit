@@ -25,6 +25,10 @@ Original pre-migration artifacts are retained in `Archive.zip` as migration refe
 
 ## Development
 
+Minimum Node.js version: **20.19.0+** (or **22.12.0+**) for Vite 8 compatibility.
+
+Before installing dependencies, ensure your Node.js runtime matches the requirement in `package.json` (`engines.node`). If needed, switch versions with your version manager (for example `nvm use`).
+
 Install dependencies:
 
 ```bash
