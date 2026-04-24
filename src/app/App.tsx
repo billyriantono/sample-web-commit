@@ -5,6 +5,7 @@ import { DownloadSection } from '@/components/sections/download-section'
 import { FeaturesSection } from '@/components/sections/features-section'
 import { GallerySection } from '@/components/sections/gallery-section'
 import { HeroSection } from '@/components/sections/hero-section'
+import { LegalSection } from '@/components/sections/legal-section'
 import { NewsletterSection } from '@/components/sections/newsletter-section'
 import { SpecsSection } from '@/components/sections/specs-section'
 import { TestimonialsSection } from '@/components/sections/testimonials-section'
@@ -23,6 +24,7 @@ export function App() {
         <DownloadSection />
         <CtaSection />
         <NewsletterSection />
+        <LegalSection />
       </main>
       <Footer />
     </div>

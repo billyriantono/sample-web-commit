@@ -1,7 +1,7 @@
 import { Github, Globe, MessageCircle, Twitter } from 'lucide-react'
 
 import { Container } from '@/components/layout/container'
-import { footerColumns } from '@/data/site-content'
+import { footerColumns, footerLegalLinks } from '@/data/site-content'
 
 const socialLinks = [
   { label: 'GitHub', href: '#', Icon: Github },
@@ -56,8 +56,17 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col gap-2 border-t border-white/10 pt-6 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between">
-          <p>© 2025 RheaOS. React migration build.</p>
+        <div className="mt-12 flex flex-col gap-4 border-t border-white/10 pt-6 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex flex-wrap items-center gap-4">
+            <p>© 2025 RheaOS. React migration build.</p>
+            <div className="flex flex-wrap items-center gap-4 text-sm text-slate-400">
+              {footerLegalLinks.map((link) => (
+                <a key={link.label} href={link.href} className="transition hover:text-white">
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          </div>
           <p>Tailwind CSS · Lucide React · Vite</p>
         </div>
       </Container>
